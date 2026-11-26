@@ -1,5 +1,7 @@
 # modbus-toolkit
 
+[![tests](https://github.com/zyh1901519038-ops/modbus-toolkit/actions/workflows/tests.yml/badge.svg)](https://github.com/zyh1901519038-ops/modbus-toolkit/actions/workflows/tests.yml)
+
 Modbus 的 RTU 和 TCP 两种封帧，加一个从站模拟器和一个命令行客户端。纯 Python 标准库。
 
 一开始是为了搞清楚「RTU 和 TCP 到底差在哪」才写的。写下来发现 PDU 那层是一套东西，区别只在外层怎么封帧。
